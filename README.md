@@ -1,36 +1,44 @@
-📘 Smart Library Management System (Java)
-📌 Description
+# 📚 Smart Library Management System
 
-This is a console-based Library Management System developed using Core Java.
-It allows users to manage books and users, issue and return books, and calculate fines for late returns using a simple menu-driven interface.
+A console-based **Library Management System** developed using **Java**.  
+This project helps manage books, users, issuing, returning, searching books, and calculating late return fines.
 
-🚀 Features
-Add new books
-View all books with issue details
-Add users
-Issue books to users
-Return books with fine calculation
-Search books by ID
-Input validation for better error handling
+## 🚀 Features
 
-🛠️ Technologies Used
-Java (Core Java)
-Java Collections (HashMap)
-Java Time API (LocalDate, ChronoUnit)
+- ➕ Add new books
+- 📖 View all available books
+- 👤 Add new users
+- 🔄 Issue books to users
+- ↩️ Return books
+- 🔍 Search books by Book ID
+- 💰 Automatic fine calculation for late returns
+- ✅ Input validation for incorrect entries
+
+## 🛠️ Technologies Used
+
+- Java
+- Java Collections Framework
+- HashMap
+- Java Time API (`LocalDate`, `ChronoUnit`)
+- Scanner Class
+
+📌 Application Workflow
+Add books into the library system.
+Add users who can borrow books.
+Issue books by entering Book ID and User ID.
+Return books after borrowing.
+If the book is returned after 7 days, a fine is calculated.
+
+💰 Fine Calculation
+Allowed borrowing period: 7 days
+Late fine: ₹2 per extra day
+
+🧠 Concepts Implemented
 Object-Oriented Programming (OOP)
-
-🧠 Concepts Applied
 Classes and Objects
 Encapsulation
-Conditional statements and loops
-Collection framework for dynamic data handling
-Date and time handling
+Data Structures
+HashMap for storing books and users
+Exception Handling
+Date and Time Handling
 
-📋 Menu Options
-1. Add Book
-2. View Books
-3. Add User
-4. Issue Book
-5. Return Book
-6. Search Book
-7. Exit
